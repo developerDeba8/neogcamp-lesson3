@@ -7,7 +7,7 @@ body {
 
 :root{
     --primary-color: #111827;
-    /* --gray-color : #374151; */
+    --gray-color : #8d8c8c; 
     --off-white : #eeeff0;
 }
 
@@ -32,17 +32,17 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.4rem 1rem;
+    border-radius: 3rem;
 }
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+
     color: white;
 }
 
 .link-secondary {
     border: 1.5px solid var(--primary-color);
-    border-radius: 0.5rem;
     color: var(--primary-color);
     font-weight: normal;
 }
@@ -107,9 +107,9 @@ hr {
 }
 
 
-/* .hero .hero-header-span {
+ .hero .hero-header-span {
     color: var(--gray-color);
-} */
+} 
 
 
 /**section**/
