@@ -33,11 +33,11 @@ hr {
     text-decoration: none;
     padding: 0.4rem 1rem;
     border-radius: 3rem;
+
 }
 
 .link-primary {
     background-color: var(--primary-color);
-
     color: white;
 }
 
@@ -46,7 +46,6 @@ hr {
     color: var(--primary-color);
     font-weight: normal;
 }
-
 
 
 /**Lists**/
